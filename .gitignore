@@ -3,3 +3,6 @@ Simple-JS-Projects/QuizApp/node_modules
 Simple-JS-Projects/todoList/node_modules
 Simple-JS-Projects/sandbox
 Async-JS/promise-demo/node_modules
+.DS_Store
+Async-JS/.DS_Store
+Async-JS/Weather-app/node_modules
