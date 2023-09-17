@@ -7,6 +7,9 @@ import store from './redux/store'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
+  // wrap root component with redux provider so that all child components can access the redux store
+  //
   <Provider store={store}>
     <App />
   </Provider>

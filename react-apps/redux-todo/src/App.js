@@ -5,7 +5,9 @@ import { AddTodoAction, RemoveTodo } from './redux/actions/TodoActions';
 
 function App() {
   const [todo, setTodo] = useState('');
-  // add comments
+  // useDispatch hook use to call actions 
+  // useSelector hook is used to access state from redux store
+  //
   const dispatch = useDispatch();
   const TodoState = useSelector(state => state.Todo);
 
